@@ -1,0 +1,52 @@
+* {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 24px;
+        }
+
+        body {
+            background-color: rgb(46, 43, 226);
+            color: aliceblue;
+        }
+
+        h2 {
+            font-size: 48px;
+            background-color: rgb(255, 145, 0);
+            color: yellow;
+        }
+
+        nav {
+            text-align: center;
+        }
+
+        nav div {
+            display: inline-block;
+        }
+
+        a {
+            text-decoration: none;
+            color: red;
+        }
+
+        .item_container {
+            text-align: center;
+        }
+
+        .item {
+            background-color: aquamarine;
+            width: 30%;
+            height: 500px;
+            border-radius: 25px;
+            text-align: center;
+            padding: 5px;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            width: 90%;
+            height: 25%;
+            border-radius: 25px;
+            margin-top: 5px;
+        }
