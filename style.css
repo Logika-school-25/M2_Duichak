@@ -1,52 +1,110 @@
 * {
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            font-size: 24px;
-        }
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+}
 
-        body {
-            background-color: rgb(46, 43, 226);
-            color: aliceblue;
-        }
+body {
+    background-color: rgb(46, 43, 226);
+    color: aliceblue;
+}
 
-        h2 {
-            font-size: 48px;
-            background-color: rgb(255, 145, 0);
-            color: yellow;
-        }
+h2 {
+    font-size: 48px;
+    background-color: rgb(255, 145, 0);
+    color: yellow;
+}
 
-        nav {
-            text-align: center;
-        }
+nav {
+    text-align: center;
+}
 
-        nav div {
-            display: inline-block;
-        }
+nav div {
+    display: inline-block;
+}
 
-        a {
-            text-decoration: none;
-            color: red;
-        }
+a {
+    text-decoration: none;
+    color: red;
+}
+.item_container {
+    text-align: center;
+}
 
-        .item_container {
-            text-align: center;
-        }
 
-        .item {
-            background-color: aquamarine;
-            width: 30%;
-            height: 500px;
-            border-radius: 25px;
-            text-align: center;
-            padding: 5px;
-            display: inline-block;
-            vertical-align: top;
-        }
 
-        img {
-            display: block;
-            margin: 0 auto;
-            width: 90%;
-            height: 25%;
-            border-radius: 25px;
-            margin-top: 5px;
-        }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f9f9f9;
+    color: #333;
+}
+header {
+    background: #6b4f4f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+nav {
+    margin-top: 10px;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+main {
+    padding: 40px;
+    max-width: 1000px;
+    margin: auto;
+}
+h2 {
+    border-bottom: 2px solid #6b4f4f;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    color: #6b4f4f;
+}
+.item_container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.item {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    padding: 15px;
+    text-align: center;
+    flex: 1 1 250px;
+}
+.item img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+.item h3 {
+    margin: 10px 0;
+    color: #444;
+}
+.item p {
+    font-size: 0.95rem;
+}
+.price {
+    font-weight: bold;
+    color: #6b4f4f;
+}
+footer {
+    background: #6b4f4f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
